@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp">
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/courseTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Code"
+            android:textSize="24sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/sectionTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Section"
+            android:textSize="18sp"
+            android:textColor="#757474"/>
+    </LinearLayout>
+
+</RelativeLayout>
